@@ -6,10 +6,11 @@ Monitoring and Alerting with CloudWatch
   ![AMI Creation Screenshot](images/Ami.png)
 
 2 Creating a load Balancer 
+
 •	In the left navigation pane, locate the Load Balancing section, and choose Load Balancers 
 •	In the Load balancer types section, for Application Load Balancer, choose Create. 
 •	Select Application load balancer 
-  
+   ![AMI Creation Screenshot](images/Ami2.png)
 •	Map network to the VPC you create with private and public subnets and select two public subnets  
 •	Select at least two Availability Zones and a subnet for each zone. A load balancer node will be placed in each selected zone and will automatically scale in response to traffic. The load balancer routes traffic to targets in the selected Availability Zones only. 
   
