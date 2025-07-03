@@ -1,7 +1,7 @@
 # Monitoring and Alerting with CloudWatch 
 
 
-1  **Creating an AMI for auto scaling** 
+## **1. Creating an AMI for auto scaling** 
 •	create an AMI from the existing Web Server 1 Instance  
 •	In the left navigation pane, locate the Instances section, and choose Instances. 
 •	From the Actions dropdown list, choose Image and templates Create image, and then configure the following. 
@@ -10,7 +10,7 @@
   
 ---
 
-2 ## **Creating a load Balancer** 
+## **2. Creating a load Balancer** 
 
 •	In the left navigation pane, locate the Load Balancing section, and choose Load Balancers 
 •	In the Load balancer types section, for Application Load Balancer, choose Create. 
