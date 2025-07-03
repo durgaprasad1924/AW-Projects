@@ -1,35 +1,45 @@
 # Monitoring and Alerting with CloudWatch 
 
 
-1.1  Creating an AMI for auto scaling 
+1  **Creating an AMI for auto scaling** 
 •	create an AMI from the existing Web Server 1 Instance  
 •	In the left navigation pane, locate the Instances section, and choose Instances. 
 •	From the Actions dropdown list, choose Image and templates Create image, and then configure the following. 
 
   ![AMI Creation Screenshot](images/Ami.png)
+  
 ---
-2 Creating a load Balancer 
+
+2 **Creating a load Balancer** 
 
 •	In the left navigation pane, locate the Load Balancing section, and choose Load Balancers 
 •	In the Load balancer types section, for Application Load Balancer, choose Create. 
 •	Select Application load balancer 
+
    ![AMI2 Creation Screenshot](images/ami2.png)
+   
 •	Map network to the VPC you create with private and public subnets and select two public subnets  
 •	Select at least two Availability Zones and a subnet for each zone. A load balancer node will be placed in each selected zone and will automatically scale in response to traffic. The load balancer routes traffic to targets in the selected Availability Zones only. 
+
   ![AMI2 Creation Screenshot](images/ami3.png)
-•	Select security group which you have to create and enable port 80 for http. 
-•	At Listeners and routing section and click on create target group to create a target group. 
- ![AMI2 Creation Screenshot](images/ami4.png) 
- 
   
+•	Select security group which you have to create and enable port 80 for http. 
+
+•	At Listeners and routing section and click on create target group to create a target group. 
+
+ ![AMI2 Creation Screenshot](images/ami4.png) 
+   
 •	Add instance to the target  
+
   ![AMI2 Creation Screenshot](images/ami5.png)
+  
 •	Add the target group in Listing and Routing 
+
  ![AMI2 Creation Screenshot](images/ami6.png) 
  
 •	We have successfully created load Balancer. 
  
-3. Creating a launch template 
+3. Creating a launch template** 
 •	create a launch template for your Auto Scaling group. A launch template is a template that an Auto Scaling group uses to launch EC2 instances. When you create a launch template, you specify information for the instances, such as the AMI, instance type, key pair, security group, and disks 
 •	In the left navigation pane, locate the Instances section, and choose Launch Templates and create launch template 
   ![AMI2 Creation Screenshot](images/ami7.png)
