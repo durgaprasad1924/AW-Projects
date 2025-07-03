@@ -2,9 +2,9 @@
 
 
 ## **1. Creating an AMI for auto scaling** 
-•	create an AMI from the existing Web Server 1 Instance  
-•	In the left navigation pane, locate the Instances section, and choose Instances. 
-•	From the Actions dropdown list, choose Image and templates Create image, and then configure the following. 
+-	create an AMI from the existing Web Server 1 Instance  
+-	In the left navigation pane, locate the Instances section, and choose Instances. 
+-	From the Actions dropdown list, choose Image and templates Create image, and then configure the following. 
 
   ![AMI Creation Screenshot](images/Ami.png)
   
