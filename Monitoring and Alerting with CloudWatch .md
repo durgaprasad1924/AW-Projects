@@ -1,4 +1,4 @@
-Monitoring and Alerting with CloudWatch 
+# Monitoring and Alerting with CloudWatch 
 
 
 1.1  Creating an AMI for auto scaling 
