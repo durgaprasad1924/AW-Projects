@@ -10,7 +10,7 @@
   
 ---
 
-2 **Creating a load Balancer** 
+2 ## **Creating a load Balancer** 
 
 •	In the left navigation pane, locate the Load Balancing section, and choose Load Balancers 
 •	In the Load balancer types section, for Application Load Balancer, choose Create. 
